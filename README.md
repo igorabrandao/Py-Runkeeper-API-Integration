@@ -18,3 +18,13 @@ applying web scraping techniques.
 
 1. Download the *py-exercise-dashboard.ipynb*, *dataSource.xlsx* files and put it in the same folder. 
 2. After that, use Jupyter notebook tool and access the directory with the files. Enjoy yourself! :)
+
+### Important ###
+
+To run the heat map, it's necessary to run the following command:
+
+```
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000
+```
+
+This command avoid aborting the heatmap processing.
